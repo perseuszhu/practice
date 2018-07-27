@@ -19,7 +19,7 @@ public class Bubblesort1 {
 			
 	public static void main(String[] args) {
 		
-		int[] a = {0,-20,-40,-30,5,60,45,13,27,42,78,56,32,406,65};
+		int[] a = {0,-20,-40,-30,5,60,45,13,27,24,78,56,32,406,65};
 		Bubblesort1.sort(a, a.length);
 		for(int i : a) {
 			System.out.print(i+",");
